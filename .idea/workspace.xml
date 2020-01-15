@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd9c68b-5c89-4594-8136-7ba9efde27b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +50,34 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -98,21 +118,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added hello world program (does not run thanks to maven settings being borked)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="17" key="CommitChangelistDialog2" timestamp="1579020590185">
+    <state x="432" y="17" key="CommitChangelistDialog2" timestamp="1579021115525">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="432" y="17" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579020590185" />
-    <state x="279" y="0" key="SettingsEditor" timestamp="1579020463412">
+    <state x="432" y="17" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1579021115525" />
+    <state x="279" y="0" key="SettingsEditor" timestamp="1579081342273">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="279" y="0" key="SettingsEditor/0.0.1536.834/-1920.-200.1920.1050/-3840.-322.1920.1170@0.0.1536.834" timestamp="1579081342273" />
     <state x="279" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1579020463412" />
-    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1579020613746">
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1579021123508">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579020613746" />
-    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1579018773837">
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1579021123508" />
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1579081158398">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.-200.1920.1050/-3840.-322.1920.1170@0.0.1536.834" timestamp="1579081158398" />
     <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1579018773837" />
     <state x="516" y="222" key="git4idea.merge.GitPullDialog" timestamp="1579019529038">
       <screen x="0" y="0" width="1536" height="834" />
